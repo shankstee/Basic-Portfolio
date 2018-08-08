@@ -19,6 +19,8 @@ body {
     height: 80px;
     width: 280px;
     float: right;
+    text-align: center;
+    
     
 
 }
@@ -47,6 +49,7 @@ body {
     height: 80px;
     background-color: #4aaaa5;
     float: left;
+    margin-left: 300px;
 
 }
 
@@ -56,6 +59,7 @@ img {
     width: 200px;
     float: left;
     padding: 15px;
+    
     
 
     
@@ -69,10 +73,7 @@ p {
     width: 900px;
     padding: 20px;
     
-    
 }
-
-
 
 .content {
     background-color:#ffffff;
@@ -82,10 +83,29 @@ p {
     min-height: 100%;
     border: solid;
     border-color: #dddddd;
-    
+}
 
-    
+.submit {
+    background-color: #4aaaa5;
+}
+
+/* contact page styles */
+.formz {
+    background-color:#ffffff;
+    margin: 100px;
+    width: 960px;
+    float: left;
+    min-height: 100%;
+    border: solid;
+    border-color: #dddddd;
     
 }
 
+.namel {
+    width: 900px;
+}
 
+textarea {
+    width: 900px;
+    height: 200px;
+}
