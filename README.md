@@ -20,4 +20,5 @@ A basic outline of my personal portfolio.
 ## Acknowledgments
 
 * The start to my personal Portfolio
+* Link to portfolio: https://shankstee.github.io/Basic-Portfolio/
 
