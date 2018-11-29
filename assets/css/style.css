@@ -133,11 +133,10 @@ textarea {
     border: solid;
     border-color: #dddddd;
     padding: 30px;
-    margin: 5% 15% 10% 15%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30% 30% 30%;
-    grid-gap: 5px 5px;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 100px;
+    
     
 }
 
@@ -156,14 +155,8 @@ textarea {
 
 }
 
-.imgp {
-    height: 200px;
-    width: 200px;
-    position: relative;
-     
-}
 
-figcaption {
+/* figcaption {
     padding: 20px 0 15px 8px;
     margin-top: -65px;
     background-color: #4aaaa595;
@@ -177,4 +170,62 @@ figure {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 40px;
     -webkit-margin-end: 40px;
+} */
+
+
+.portfolioItem {
+    position: relative;
+    background-color: #4aaaa5;
+    margin-bottom: 50px;
+    width: 45%;
+    float: left;
+    height: 400px;
+
+}
+
+.portfolioItem h4 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;position: absolute;
+    bottom: 15px;
+    width: 100%
+}
+
+.portfolioItem:nth-of-type(even) {
+    float: right;
+}
+#port1 {
+    background: url('../images/voice-changer-with-effects.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port2 {
+    background: url('../images/live.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port3 {
+    background: url('../images/love.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port4 {
+    background: url('../images/musicc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port5 {
+    background: url('../images/Quiz.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port6 {
+    background: url('../images/live.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
